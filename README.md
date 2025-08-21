@@ -14,7 +14,7 @@
 
 ###
 
-<p align="left">Java 17+<br>Spring Boot 3.5.4<br>Maven<br>Visual Studio Code (IDE)</p>
+<p align="left">⚊ Java 17+<br>⚊ Spring Boot 3.5.4<br>⚊ Maven<br>⚊ Visual Studio Code (IDE)</p>
 
 ###
 
@@ -25,3 +25,13 @@
 <p align="left"><strong>LoggerService</strong> → Bean Singleton responsável por registrar logs (utiliza @Component).<br><br><strong>UserService</strong> → Serviço que consome o LoggerService para registrar ações sobre usuários (@Service).<br><br><strong>SingletonDemoApplication</strong> → Classe principal que inicializa o contexto Spring Boot e executa testes práticos.</p>
 
 ###
+
+<h3 align="left">▶️ Como executar</h3>
+
+###
+
+1. Clone o repositório ou baixe o projeto.
+2. No terminal, rode:
+
+  ```shell
+mvn spring-boot:run
